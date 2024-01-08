@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/set.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/Index.css">
+
+    <link rel="stylesheet" href="CSS/Slide.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <title>기숙이</title>
+</head>
+<body class="container">
+
+    <header class="header">
+        <nav class="nav-item">
+            <p href="Index.html" class="title">기숙이</p>
+
+            <div class="login">
+                <i class="bi bi-person-circle"></i>
+            </div>
+        </nav>
+    </header>
+
+    <aside class="left-side">
+        LeftSide
+    </aside>
+
+    <main class="main">
+        <section class="slider-item">
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide"><img src="Images/Slider_img1.png"></div>
+                    <div class="slide"><img src="Images/Slider_img2.png"></div>
+                    <div class="slide"><img src="Images/Slider_img3.png"></div>
+                </div>
+                <div class="slider-btn prev" onclick="prevSlide()">&#9665;</div>
+                <div class="slider-btn next" onclick="nextSlide()">&#9655;</div>
+            </div>
+        </section>
+
+        <script src="JS/SLide.js"></script>
+
+        <section class="Reservation-item">
+            <p class="ment1">공동구역 예약</p>
+
+            <div class="Reservation-list">
+                <div class="Washing-Machine">세탁기</div>
+                <div class="Shower-Room">샤워룸</div>
+            </div>
+        </section>
+
+        <section class="Rule-item">
+            <p class="ment2">기숙사 규칙</p>
+
+            <div class="Rule-list">
+                <div class="Scores">상벌점</div>
+                <div class="Cleaner">청소당번</div>
+                <div class="Teachers">선생님 일정</div>
+            </div>
+        </section>
+    </main>
+
+    <aside class="right-side">
+        RightSide
+    </aside>
+
+    <footer class="footer">
+        Footer
+    </footer>
+
+</body>
+</html>

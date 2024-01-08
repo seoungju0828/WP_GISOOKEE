@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=East+Sea+Dokdo&family=Gowun+Batang&family=Hahmlet:wght@200;400;700&family=Noto+Sans+KR:wght@500&display=swap');
+
+:root {
+    --first-color: darkseagreen;
+    --second-color: rgb(227, 220, 220);
+    --body-color: #fff;
+
+    --title-font: "Black Han Sans", "sans-serif";
+    --body-font: "Gothic A1", "sans-serif";
+
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.8rem;
+    --smaller-font-size: 0.6rem;
+    --font-thin: 200;
+    --font-regular: 400;
+    --font-blod: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}

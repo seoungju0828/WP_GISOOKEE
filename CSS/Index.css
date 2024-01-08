@@ -1,0 +1,88 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 29% 42% 29%;
+    grid-template-rows: 5% 90% 5%;
+    grid-template-areas: 
+    "header header header"
+    "left-side main right-side"
+    "footer footer footer";
+}
+
+.header {
+    grid-area: header;
+}
+
+.left-side {
+    grid-area: left-side;
+    background-color: var(--second-color);
+}
+
+.main {
+    grid-area: main;
+    background-color: var(--body-color);
+}
+
+.slider-item {
+    height: 35%;
+}
+
+.ment1,
+.ment2 {
+    font-family: var(--body-font);
+    font-size: var(--h1-font-size);
+
+    margin: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.Washing-Machine,
+.Shower-Room {
+    width: 30%;
+    height: 100%;
+    background-color: gray;
+    margin-left: 20px;
+}
+
+.Washing-Machine + .Shower-Room {
+    margin-left: 15px;
+}
+
+.Reservation-list {
+    display: flex;
+    height: 20vh;
+}
+
+.Scores,
+.Cleaner,
+.Teachers {
+    width: 30%;
+    height: 100%;
+    background-color: gray;
+    margin-left: 20px;
+}
+
+.Scores + .Cleaner {
+    margin-left: 15px;
+}
+
+.Cleaner + .Teachers {
+    margin-left: 15px;
+}
+
+.Rule-list {
+    display: flex;
+    height: 25vh;
+}
+
+.right-side {
+    grid-area: right-side;
+    background-color: var(--second-color);
+}
+
+.footer {
+    grid-area: footer;
+    background-color: var(--first-color);
+}
