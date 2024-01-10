@@ -25,3 +25,8 @@ nav {
 .title {
     margin: 0 auto;
 }
+
+.footer {
+    grid-area: footer;
+    background-color: var(--first-color);
+}

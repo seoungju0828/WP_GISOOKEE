@@ -94,6 +94,10 @@
     border-radius: 50%;
 }
 
+.slider-item {
+    height: 35%;
+}
+
 .prev {
     left: 10px;
 }

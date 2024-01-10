@@ -1,33 +1,3 @@
-.container {
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 29% 42% 29%;
-    grid-template-rows: 5% 90% 5%;
-    grid-template-areas: 
-    "header header header"
-    "left-side main right-side"
-    "footer footer footer";
-}
-
-.header {
-    grid-area: header;
-}
-
-.left-side {
-    grid-area: left-side;
-    background-color: var(--second-color);
-}
-
-.main {
-    grid-area: main;
-    background-color: var(--body-color);
-}
-
-.slider-item {
-    height: 35%;
-}
-
 .ment1,
 .ment2 {
     font-family: var(--body-font);
@@ -75,16 +45,6 @@
 .Rule-list {
     display: flex;
     height: 25vh;
-}
-
-.right-side {
-    grid-area: right-side;
-    background-color: var(--second-color);
-}
-
-.footer {
-    grid-area: footer;
-    background-color: var(--first-color);
 }
 
 @media screen and (max-width: 720px) {
