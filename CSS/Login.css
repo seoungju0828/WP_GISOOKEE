@@ -1,0 +1,42 @@
+.main {
+    align-items: center;
+    text-align: center;
+}
+
+.ment1 {
+    margin-top: 10%;
+    font-family: var(--body-font);
+    font-size: var(--h1-font-size);
+}
+
+.ment2 {
+    font-family: var(--body-font);
+    font-size: var(--h3-font-size);
+}
+
+@media screen and (max-width: 720px) {
+    .container {
+        grid-template-columns: 0% 100% 0%;
+    }
+
+    .left-side,
+    .right-side {
+        display: none;
+    }
+
+    .main {
+        grid-area: main;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .ment1 {
+        margin-top: -15%;
+        margin-bottom: 5%;
+    }
+
+    .ment2 {
+        margin-top: 5%;
+    }
+}

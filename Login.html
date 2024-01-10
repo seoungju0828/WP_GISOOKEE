@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/set.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/Login.css">
+        
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+
+    <title>기숙이</title>
+</head>
+
+<body class="container">
+
+    <header class="header">
+        <nav class="nav-item">
+            <a href="Index.html" class="title">기숙이</a>
+
+            <div class="login">
+                <a href=""><i class="bi bi-person-circle"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <aside class="left-side">
+        LeftSide
+    </aside>
+
+    <main class="main">
+        <section class="Login-item">
+            <p class="ment1">로그인</p>
+            <p class="ment2">*본교 기숙사생이 아닌 학생은 로그인이 불가합니다.</p>
+
+            <form method="post" action="PHP/Login.php" onsubmit="return validateForm()">
+                <div class="name-box">
+                    <span class="input-group-text">이름</span>
+                    <input type="text" name="name" class="form-control">
+                </div>
+
+                <div class="stuId-box">
+                    <span class="input-group-text">학번</span>
+                    <input type="text" name="stuId" class="form-control">
+                </div>
+
+                <div class="roomNum-box">
+                    <span class="input-group-text">방호수</span>
+                    <input type="text" name="roomNum" class="form-control">
+                </div>
+
+                <button type="submit" class="btn btn-success btn-lg">로그인</button>
+            </form>
+        </section>
+    </main>
+
+    <aside class="right-side">
+        RightSide
+    </aside>
+
+    <footer class="footer">
+        Footer
+    </footer>
+
+</body>
+</html>
